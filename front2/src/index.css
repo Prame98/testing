@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@font-face { font-family: 'TTTogether'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/TTTogetherA.woff') format('woff'); font-weight: normal; font-style: normal; }
+html{
+    font-family: 'Noto Sans KR', sans-serif;
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    padding:0;
+    margin:0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+a{
+    font-family: 'Noto Sans KR', sans-serif;
+    all : unset;
+    cursor:pointer;
+}
+ul,ol,dl{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style:none;
+}
+button{
+    font-family: 'Noto Sans KR', sans-serif;
+    cursor:pointer;
+}
+input{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+textarea{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+#topBtn {
+    text-decoration: none;
+    position: fixed;
+    bottom: 120px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    box-shadow: 0 0 15px #4f839750;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .5);
+    text-align: center;
+    line-height: 58px !important;
+    font: normal 16px "TTTogether";     
+    text-transform: lowercase;
+    z-index: 9999; /* 포지션을 먼저 지정후 z-좌표(레이어) : 9999입니다. */
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -o-transition: all .8s;
+    transition: all .8s;
+    border: none;
+    cursor: pointer;
+}
+  
+  
+#topBtn:hover {
+    color: #fff;
+    background: rgba(79, 131, 151, .7);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
